@@ -133,7 +133,6 @@ header {
 }
 
 .content-wrapper {
-    height: 70%;
     min-width: 50%;
     margin: auto;
     display: flex;
@@ -227,6 +226,7 @@ header {
 }
 
 .check-box {
+    padding-bottom: 30px;
     border-bottom: 1px solid #e5e7eb;
 }
 
