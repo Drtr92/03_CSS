@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice7</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/5eee9842ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<aside>
+    <div class="logo">
+        <i class="fa-solid fa-cube brand-icon"></i>
+        <span>MyDash</span>
+    </div>
+    <nav>
+        <ul>
+            <li class="active">
+                <i class="fa-regular fa-id-badge"></i>
+                <span>Profile Info</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Account Security</span>
+            </li>
+            <li>
+                <i class="fa-regular fa-bell"></i>
+                <span>Notifications</span>
+            </li>
+            <li>
+                <i class="fa-solid fa-credit-card"></i>
+                <span>Billing Details</span>
+            </li>
+        </ul>
+    </nav>
+</aside>
+<main>
+    <header>
+        <div class="header-text">
+            <h2>Profile Information</h2>
+            <span>Update your photo and personal details.</span>
+        </div>
+        <div class="user-shortcut">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="user-avatar-small">A</div>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <!-- 아바타와 버튼 -->
+        <div class="profile-form">
+            <div class="user-avatar-section">A</div>
+                <button class="edit-btn edit-button-blue">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    Upload
+                </button>
+                <button class="edit-btn edit-button-white">
+                    <i class="fa-solid fa-trash-can"></i>
+                    Remove
+                </button>
+        </div>
+
+        <!-- 유저 정보 기입란 -->
+        <div class="form-master">
+            <!-- 유저 이름 기입란 -->
+            <div class="form-name">
+                <!-- First Name -->
+                <div class="form-group form-group-name">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName">
+                </div>
+                <!-- Last Name -->
+                <div class="form-group form-group-name">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="E-mail">Email</label>
+                <input type="text" id="E-mail" placeholder="abc@fsdaf.com">
+            </div>
+
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="text" id="PhoneNumber">
+            </div>
+
+            <div class="check-box">Receive updates adn newsletters via email</div>
+        </div>
+        <!-- 하단부 -->
+            <div class="bottom-buttons">
+                <button class="edit-btn edit-button-white">
+                    <span>Upload</span>
+                </button>
+                <button class="edit-btn edit-button-blue">
+                    <span>Remove</span>
+                </button>
+            </div>
+    </div>
+</main>
+</body>
+</html>
